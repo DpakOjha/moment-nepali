@@ -1,12 +1,13 @@
-# moment-jalaali
+# moment-nepali
 
-A Jalaali (Jalali, Persian, Khorshidi, Shamsi) calendar system plugin for moment.js.
+[WORK IN PROGRESS ]
 
-[![Build Status](https://travis-ci.org/jalaali/moment-jalaali.png?branch=master)](https://travis-ci.org/jalaali/moment-jalaali)
+A Nepali calendar system plugin for moment.js.
 
-Jalali calendar is a solar calendar that was used in Persia, variants of which today are still in use in Iran as well as Afghanistan. [Read more on Wikipedia](http://en.wikipedia.org/wiki/Jalali_calendar) or see [Calendar Converter](http://www.fourmilab.ch/documents/calendar/).
+Nepali calendar is a Lunar Calendar/ Vikram Samvat Calendar. [Read more on Wikipedia](https://en.wikipedia.org/wiki/Vikram_Samvat)
 
-This plugin adds Jalaali calendar support to [momentjs](http://momentjs.com) library.
+This plugin adds Nepali calendar support to [momentjs](http://momentjs.com) library.
+
 
 Calendar conversion is based on the [algorithm provided by Kazimierz M. Borkowski](http://www.astro.uni.torun.pl/~kb/Papers/EMP/PersianC-EMP.htm) and has a very good performance.
 
