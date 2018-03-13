@@ -268,6 +268,14 @@ function g2d(gy, gm, gd) {
 }
 
 /*
+  Calculates the Julian Day number from Gregorian or Julian
+  calendar dates and substracts julian days upto 1943/4/14 AD i.e 2430829 which is the day on which our nepali calendar starts 2000/1/1 BS
+*/
+function nep_g2d(gy, gm, gd){
+  return g2d(gy, gm, gd)-2430829;
+}
+
+/*
   Calculates Gregorian and Julian calendar dates from the Julian Day number
   (jdn) for the period since jdn=-34839655 (i.e. the year -100100 of both
   calendars) to some millions years ahead of the present.
